@@ -1,0 +1,361 @@
+/* Estilos Gerais */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.btn {
+  border: 3px solid #3ebcfe;
+  padding: 10px 30px;
+  color: #3ebcfe;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.btn:hover {
+  color: #000;
+  border-color: #000;
+}
+
+.subtitle {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subtitle:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 8px auto;
+}
+
+.contact {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: #3ebcfe;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #3ebcfe;
+  margin: 8px auto;
+}
+
+.subtitulo-interno {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.subtitulo-interno:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 8px 0;
+}
+
+/* Header */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  padding: 15px 0;
+  z-index: 10;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.header_menu ul li a {
+  color: #3ebcfe;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+  color: #000;
+}
+
+.header_menu ul li a.menu_ativo {
+  color: #000;
+}
+
+/* Introduction */
+.introduction {
+  width: 100%;
+  background-size: cover;
+  margin: 60px 0;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.introduction h1 {
+  font-size: 36px;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.description {
+  max-width: 400px;
+  color: #778087;
+  text-align: left;
+}
+
+.description p {
+  padding: 30px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.homepic {
+  float: right;
+}
+
+/* Introdução Interna */
+.introducao-interna {
+  width: 100%;
+  height: 160px;
+  margin-top: 92px;
+  text-align: center;
+  color: #000;
+  padding-top: 40px;
+}
+
+.introducao-interna h1 {
+  font-size: 36px;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.introducao-interna h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 6px auto 10px auto;
+}
+
+/* Opções Veículos */
+.vehicle {
+  width: 100%;
+  background-color: #e4edf5;
+  padding: 60px 0 30px 0;
+}
+
+.vehicle-list {
+  display: flex;
+  justify-content: center;
+}
+
+.vehicle-list li {
+  text-align: center;
+}
+
+.vehicle-list li img {
+  margin: 0 auto;
+}
+
+.vehicle-list li h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 20px;
+}
+
+.vehicle-list li h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 2px auto;
+}
+
+.vehicle-list li p {
+  padding: 10px 20px 20px 20px;
+}
+
+.vehicle-icon {
+  background: #3ebcfe;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.call {
+  padding-top: 40px;
+  text-align: center;
+  clear: both;
+}
+
+.call p {
+  margin-bottom: 20px;
+}
+
+.call-to-action {
+  text-align: center;
+  margin: 10px 0 30px 0;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  background: #fff;
+  color: #000;
+  padding: 40px 0 20px 0;
+}
+
+.footer h3 {
+  font-size: 18px;
+  line-height: 25px;
+  color: #3ebcfe;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+.footer h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #3ebcfe;
+  margin: 6px 0 12px 0;
+}
+
+.footer_historia {
+  padding-right: 40px;
+}
+
+.footer_contato ul {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.copy {
+  width: 100%;
+  background: #3ebcfe;
+  color: #fff;
+  padding: 20px 0;
+}
+
+/* Formulário */
+.form {
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.content_form label {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 4px;
+}
+
+.content_form input {
+  display: block;
+  width: 100%;
+  border: 4px solid #3ebcfe;
+  background: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  padding: 7px 10px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.content_form textarea {
+  display: block;
+  width: 100%;
+  height: 120px;
+  border: 4px solid #3ebcfe;
+  background: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  padding: 7px 10px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.content_form button {
+  display: flex;
+  margin: 20px auto;
+  background: none;
+  padding: 7px 60px;
+  border: 4px solid #3ebcfe;
+}
+
+.codigoAtivacao {
+  margin-top: 10px;
+}
+
+#senhaForm,
+#deleteForm {
+  margin-bottom: 119px;
+}
+
+#app {
+  overflow: auto;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  color: #fff;
+  height: 170px;
+}

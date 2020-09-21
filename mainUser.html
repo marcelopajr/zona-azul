@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zona Azul - Opções</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="grid-4">
+        <img src="img/logo.svg" alt="Zona Azul">
+      </a>
+      <nav class="grid-12 header_menu">
+        <ul>
+          <li><a href="editarUser.html">Editar Usuário</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="introducao-interna interna_sobre">
+    <div class="container">
+      <h1 id="userName">Olá, Usuário!</h1>
+      <p>escolha uma operação</p>
+    </div>
+  </section>
+
+  <section class="vehicle">
+    <ul class="vehicle-list container">
+
+      <li class="grid-6" id="vehicle">
+        <div class="vehicle-icon" id="app">
+          <img src="img/document.svg" id="veiculosImg" alt="Seus Veículos">
+        </div>
+        <h3>Seus veículos</h3>
+        <p>vizualize todos os seus veículos cadastrados em nosso sistema</p>
+
+        <div class="call-to-action">
+          <a href="" class="btn" id="visualizar">Visualizar</a>
+        </div>
+      </li>
+
+      <li class="grid-6">
+        <div class="vehicle-icon">
+          <img src="img/pen.svg" alt="Registrar Veículo">
+        </div>
+        <h3>Registrar novo veículo</h3>
+        <p>cadastre um novo veículo de forma rápida e prática</p>
+
+        <div class="call-to-action">
+          <a href="registrarVehicle.html" class="btn">Registrar</a>
+        </div>
+      </li>
+
+      <li class="grid-6">
+        <div class="vehicle-icon">
+          <img src="img/bin.svg" alt="Deletar Veículo">
+        </div>
+        <h3>Deletar um veículo</h3>
+        <p>delete um de seus veículos cadastrados e desvincule do seu usuário</p>
+
+        <div class="call-to-action">
+          <a href="deletarVehicle.html" class="btn">Deletar</a>
+        </div>
+      </li>
+
+    </ul>
+
+  </section>
+
+  </section>
+
+  <footer>
+    <div class="footer">
+      <div class="container">
+
+        <div class="grid-8 footer_historia">
+          <h3>Sobre a Transitar</h3>
+          <p>Esta empresa iniciou sua trajetória em meados de 2008, desenvolvendo projetos voltados à mobilidade urbana, figurando como uma das empresas pioneiras neste ramo na cidade de Fortaleza.</p>
+        </div>
+
+        <div class="grid-8 footer_contato">
+          <h3>Contato</h3>
+          <ul>
+            <li>- Endereço:
+              Av. Humberto Monte, 2929, sala 519 Sul
+              Pici, Fortaleza - CE</li>
+            <li>- Telefone:
+              (85) 3223-1637</li>
+            <li>- Email:
+              contato@transitarconsultoria.com</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="copy">
+      <div class="container">
+        <p class="grid-16">Transitar Engenharia e Consultoria - CNPJ: 10.216.982/0001-07 © 2020</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("userName").innerHTML =
+      "Olá, " + localStorage.getItem("name") + "!";
+  </script>
+  <script src="js/visualizarVehicle.js"></script>
+</body>
+
+</html>

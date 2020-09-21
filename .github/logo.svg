@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="154" height="54.386" viewBox="0 0 154 54.386">
+  <g id="zona_azul" data-name="zona azul" transform="translate(-48.886)">
+    <g id="Group_2" data-name="Group 2" transform="translate(48.886)">
+      <g id="Group_1" data-name="Group 1">
+        <path id="Path_60" data-name="Path 60" d="M88.938,9.456a21.959,21.959,0,0,0-36.1,0,21.962,21.962,0,0,0-2.557,20.235,17.3,17.3,0,0,0,3.188,5.263L69.439,53.716a1.9,1.9,0,0,0,2.9,0L88.3,34.959A17.313,17.313,0,0,0,91.49,29.7,21.966,21.966,0,0,0,88.938,9.456ZM87.929,28.371a13.565,13.565,0,0,1-2.508,4.109l-.009.01L70.886,49.551,56.352,32.479a13.573,13.573,0,0,1-2.513-4.121,18.167,18.167,0,0,1,2.123-16.74,18.155,18.155,0,0,1,29.847,0A18.17,18.17,0,0,1,87.929,28.371Z" transform="translate(-48.886 0)" fill="#3ebcfe"/>
+      </g>
+    </g>
+    <g id="Group_4" data-name="Group 4" transform="translate(60.238 11.283)">
+      <g id="Group_3" data-name="Group 3">
+        <path id="Path_61" data-name="Path 61" d="M166.4,106.219a10.649,10.649,0,1,0,10.649,10.649A10.661,10.661,0,0,0,166.4,106.219Zm0,17.495a6.846,6.846,0,1,1,6.846-6.846A6.854,6.854,0,0,1,166.4,123.714Z" transform="translate(-155.754 -106.219)" fill="#3ebcfe"/>
+      </g>
+    </g>
+    <text id="Zona_Azul-2" data-name="Zona Azul" transform="translate(102.886 34)" fill="#3ebcfe" font-size="20" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">Zona Azul</tspan></text>
+  </g>
+</svg>

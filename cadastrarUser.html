@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zona Azul - Cadastro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="grid-4">
+        <img src="img/logo.svg" alt="Zona Azul">
+      </a>
+      <nav class="grid-12 header_menu">
+        <ul>
+          <li><a href="loginUser.html">Efetuar Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="introducao-interna interna_sobre">
+    <div class="container">
+      <h1>Cadastro</h1>
+      <p>preencha os campos abaixo</p>
+    </div>
+  </section>
+
+  <section class="form container">
+    <form class="grid-10 content_form" id="cadastroForm">
+      <label for="name">Nome</label>
+      <input type="text" id="name" name="name" placeholder="Nome Completo" required>
+      <label for="password">Senha</label>
+      <input type="password" id="password" name="password" placeholder="Entre 4 e 20 caracteres" required>
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" placeholder="E-mail único" required>
+      <label for="cpf_cnpj">CPF ou CNPJ</label>
+      <input type="text" id="cpf_cnpj" name="cpf_cnpj" placeholder="CPF ou CNPJ único e válido" required>
+      <label for="birthday">Data de Nascimento</label>
+      <input type="text" id="birthday" name="birthday" placeholder="DD-MM-YYYY" required>
+      <label for="phone">Celular</label>
+      <input type="text" id="phone" name="phone" placeholder="Formato 85912345678" required>
+
+      <button id="submit" name="submit" class="btn" type="submit">Cadastrar</button>
+    </form>
+
+  </section>
+
+  <footer>
+    <div class="footer">
+      <div class="container">
+
+        <div class="grid-8 footer_historia">
+          <h3>Sobre a Transitar</h3>
+          <p>Esta empresa iniciou sua trajetória em meados de 2008, desenvolvendo projetos voltados à mobilidade urbana, figurando como uma das empresas pioneiras neste ramo na cidade de Fortaleza.</p>
+        </div>
+
+        <div class="grid-8 footer_contato">
+          <h3>Contato</h3>
+          <ul>
+            <li>- Endereço:
+              Av. Humberto Monte, 2929, sala 519 Sul
+              Pici, Fortaleza - CE</li>
+            <li>- Telefone:
+              (85) 3223-1637</li>
+            <li>- Email:
+              contato@transitarconsultoria.com</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="copy">
+      <div class="container">
+        <p class="grid-16">Transitar Engenharia e Consultoria - CNPJ: 10.216.982/0001-07 © 2020</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/cadastrarUser.js"></script>
+</body>
+
+</html>
