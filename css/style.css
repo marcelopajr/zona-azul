@@ -131,7 +131,7 @@ img {
 .introduction {
   width: 100%;
   background-size: cover;
-  margin: 60px 0;
+  margin: 120px 0;
   text-align: center;
   padding-top: 80px;
 }
@@ -343,10 +343,13 @@ img {
 
 .codigoAtivacao {
   margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 #senhaForm,
-#deleteForm {
+#deleteForm,
+#novoVeiculoForm {
+  margin-top: 60px;
   margin-bottom: 119px;
 }
 
