@@ -13,7 +13,7 @@
 
 ## 💻 Projeto
 
-O Zona Azul Fortaleza é uma aplicação web que realiza as principais operações do serviço (CRUD) de forma dinâmica utilizando a Fetch API.
+O Zona Azul Fortaleza é uma aplicação web que realiza as principais operações do serviço (CRUD) de forma dinâmica utilizando Fetch API.
 
 ## 🔧 Tecnologias
 
